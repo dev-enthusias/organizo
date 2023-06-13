@@ -1,5 +1,5 @@
 import React from 'react';
 
 export default function Calendar({ className }) {
-  return <div className={className}>Calendar</div>;
+  return <div className={className}></div>;
 }

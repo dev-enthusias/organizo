@@ -8,9 +8,9 @@ import AddWidget from '../components/AddWidget';
 
 export default function Dashboard() {
   return (
-    <div className='h-screen'>
+    <div className='h-screen bg-neutral-200'>
       <div className='h-screen p-2 grid grid-cols-9 grid-rows-[1fr_6fr_6fr] gap-3'>
-        <SearchBar className='col-start-1 col-end-10 border border-solid border-black' />
+        <SearchBar className='col-start-1 col-end-10' />
         <Calendar className='col-start-1 col-span-3 border border-solid border-black' />
         <Task className='col-start-4 col-span-4 border border-solid border-black' />
         <Comment className='col-end-10 col-span-2 border border-solid border-black' />
